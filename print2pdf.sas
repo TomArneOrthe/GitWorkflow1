@@ -6,7 +6,7 @@
    Write a pdf to output folder
    Line added by this developer in EG 
    Line added by "another" developer in github
-   Yet another linke added by this developer in EG
+   Yet another line added by this developer in EG
 */
 ods pdf file="&project_path\output\class.pdf";
 proc print data=sashelp.class;
