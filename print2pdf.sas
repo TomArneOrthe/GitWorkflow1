@@ -3,7 +3,8 @@
 %let project_path = c:\users\&SYSUSERID.\MySASProjects\&project_name;
 
 /* ODS printing of pdf file to output folder - 
-   Write a pdf to output folder 
+   Write a pdf to output folder
+   Line added by "another" developer in github
 */
 ods pdf file="&project_path\output\class.pdf";
 proc print data=sashelp.class;
